@@ -53,6 +53,7 @@ under the License.
         <flink.version>1.15.1</flink.version>
         <jedis.version>4.2.3</jedis.version>
         <testcontainers.version>1.17.3</testcontainers.version>
+        <junit.version>5.8.2</junit.version>
 
     </properties>
 
@@ -76,13 +77,13 @@ under the License.
             <dependency>
                 <groupId>org.junit.jupiter</groupId>
                 <artifactId>junit-jupiter-api</artifactId>
-                <version>5.8.2</version>
+                <version>${junit.version}</version>
                 <scope>test</scope>
             </dependency>
             <dependency>
                 <groupId>org.junit.jupiter</groupId>
                 <artifactId>junit-jupiter</artifactId>
-                <version>5.8.2</version>
+                <version>${junit.version}</version>
                 <scope>test</scope>
             </dependency>
             <dependency>
